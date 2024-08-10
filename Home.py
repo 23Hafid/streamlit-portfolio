@@ -523,13 +523,14 @@ def about_page():
     st.markdown("---")
 
     st.subheader("Areas of Interest")
-    st.write(
-        "\n - I love EXO 💖."
-        "\n - Ongoing self-study of Japanese🏯 and German languages through Duolingo and YouTube. "
-        "\n - Connect with me on Duolingo and motivate each other! @\_Kay___"
-        "\n - Appreciation for diverse television genres, with a particular affinity for science fiction, action, fantasy, dystopian narratives, and historical dramas."
-        "\n - Favorite anime selections include 'Kimi Ni Todoke', 'Au Haru Ride', and 'The Apothecary Diaries'."
-        "\n - Avid gaming enthusiast: Genshin Impact, Mobile Legends, Play Together")
+    st.markdown(
+        '<div class="small-font">\n\n - I love EXO 💖.'
+        '\n - Ongoing self-study of Japanese🏯 and German languages through Duolingo and YouTube. '
+        '\n - Connect with me on Duolingo and motivate each other! @\_Kay___'
+        '\n - Appreciation for diverse television genres, with a particular affinity for science fiction, action, fantasy, dystopian narratives, and historical dramas.'
+        '\n - Favorite anime selections include Kimi Ni Todoke, Au Haru Ride, and The Apothecary Diaries.'
+        '\n - Avid gaming enthusiast: Genshin Impact, Mobile Legends, Play Together</div>',
+        unsafe_allow_html=True)
 
     # From GitHub KevzPeter / Duolingo-Stats-Card
     st.markdown("""
