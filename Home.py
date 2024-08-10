@@ -547,9 +547,9 @@ def about_page():
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown(style_image("./image/exo.jpg"), unsafe_allow_html=True)
+        st.markdown(style_image("./image/exo.JPG"), unsafe_allow_html=True)
     with col2:
-        st.markdown(style_image("./image/play_together.jpg"), unsafe_allow_html=True)
+        st.markdown(style_image("./image/play_together.JPG"), unsafe_allow_html=True)
     with col3:
         st.markdown(style_image("./image/kiminitodoke.jpg"), unsafe_allow_html=True)
 
