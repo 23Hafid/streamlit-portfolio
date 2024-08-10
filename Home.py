@@ -57,7 +57,6 @@ def get_experience(year):
             "February": "💼 Returned to Xeersoft Sdn. Bhd. as a Junior Software Developer."
                         "\n\n- Worked on developing and enhancing the Xeersoft ERP system, focusing on various modules such as Inventory and Accounting using PHP, JavaScript, and SQL."
                         "\n\n- Contributed to API development in Slim framework."
-                        "\n\n- Worked on the E-Invoice system development, a collaboration project with Boss Boleh Sdn. Bhd."
                         "\n\n- Collaborated with cross-functional teams to deliver high-quality software solutions."
                         "\n\n- Optimized application performance and ensured code quality through rigorous testing and debugging."
                         "\n\n- Redesigned the system dashboard to improve user engagement and enable more informed business decisions."
